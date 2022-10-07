@@ -1,0 +1,37 @@
+.boton-amarillo {
+    @include boton($amarillo, inline-block);
+    
+}
+
+.boton-amarillo-block{
+    @include boton($amarillo, block);
+}
+
+.boton-amarillo-con {
+    @include boton($amarillo, inline-block);
+}
+
+.boton-amarillo-con:hover{
+    color: $blanco;
+    transition: 1.4s;
+    background-color: $verde;
+}
+
+
+
+.boton-amarillo-block:hover{
+    color: $blanco;
+    transition: 1.4s;
+    background-color: $verde;
+    
+}
+
+.boton-verde {
+    @include boton($verde, inline-block);
+}
+
+.boton-verde:hover {
+    color: $blanco;
+    transition: 1.4s;
+    background-color: $amarillo,;
+}
